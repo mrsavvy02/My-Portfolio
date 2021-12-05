@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.landing-page{
+  width: 100%;
+  height: 100vh;
+  background-color: #16181D;
+  padding-left: 10%;
+  padding-right: 10%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.main-section{
+  display: flex;
+  padding-top: 10%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.landing-section{
+  text-align: right;
+  padding-top: 100px;
+}
+
+.header{
+  padding: 10px;
+  z-index: 1;
+}
+
+.menu-list{
+  display: block;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  color: #fff;
+}
+
+.menu-list li{
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.menu-list li a{
+  text-decoration: none;
+  color: #adb5bd;
+  font-family: 'Jolly Lodger', cursive;
+  font-weight: 400;
+  font-size: 40px;
+
+}
+
+.landing-section-heading{
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: #adb5bd;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0%;
+}
+
+.landing-section-text{
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  font-weight: 350;
+  color: #adb5bd;
+}
+
+.btn-download{
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-family: 'Jolly Lodger', cursive;
+}
+
+.btn-download a{
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+}
+.btn-download a:hover,
+.btn-download:hover {
+  background-color: #fff;
+  color: #293241;
+}
+
+/*SECOND SECTION */
+
+.second-section{
+  width: 100%;
+  height: 100vh;
+  background-color: #adb5bd;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.second-section-heading{
+  font-family: 'Nosifer', cursive;
+  font-size: 30px;
+  text-decoration: underline;
+  color: #212529;
+  font-weight: 800;
+  margin: 0;
+}
+
+.section-desc{
+  font-family: 'Space Mono', monospace;
+  font-size: 15px;
+  color: #212529;
+  font-weight: 800;
+  margin: 0;
+  padding: 5px;
+}
+.section-desc li{
+  list-style: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 15px;
+  color: #212529;
+  font-weight: 800;
+  margin: 0;
+  padding: 5px;
+}
