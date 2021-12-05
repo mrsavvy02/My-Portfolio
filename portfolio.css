@@ -36,12 +36,16 @@ html{
 }
 
 .header{
-  padding: 10px;
+  padding-top: 10px;
   z-index: 1;
+  top: 0;
+  position: sticky;
+  background: #16181D;
 }
 
 .menu-list{
   display: block;
+  margin: 0;
   justify-content: space-between;
   list-style: none;
   width: 100%;
