@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
@@ -26,14 +26,14 @@ html{
 
 .main-section{
   display: flex;
-  padding-top: 10%;
+  padding-top: 11%;
   align-items: center;
   justify-content: space-around;
 }
 
 .landing-section{
   text-align: right;
-  padding-top: 100px;
+  padding-top: 10px;
 }
 
 .header{
@@ -65,15 +65,25 @@ html{
   font-family: 'Jolly Lodger', cursive;
   font-weight: 400;
   font-size: 40px;
+}
 
+.menu-list li a:hover{
+  background-color: #d00000;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 45px;
+  text-shadow: 1px 1px;
 }
 
 .landing-section-heading{
-  font-family: 'Fuzzy Bubbles', cursive;
-  color: #adb5bd;
-  font-size: 50px;
+  font-family: 'Jolly Lodger', cursive;
+  font-size: 60px;
+  color: #d00000;
   font-weight: 500;
   margin: 0%;
+  text-shadow: 3px 3px;
+  word-spacing: 0px;
 }
 
 .landing-section-text{
@@ -81,6 +91,19 @@ html{
   font-size: 35px;
   font-weight: 350;
   color: #adb5bd;
+  width: 3ch;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: text 20s steps(64) infinite alternate;
+  border-right: 2px solid black;
+}
+@keyframes text{
+  0%{
+    width: 0ch;
+  }
+  50%{
+    width: 64ch;
+  }
 }
 
 .btn-download{
