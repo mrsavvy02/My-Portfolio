@@ -211,7 +211,7 @@ html{
 }
 .items{
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   padding: 30px 20px;
   grid-column-gap: 30px;
   grid-row-gap: 25px;
