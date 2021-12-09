@@ -168,6 +168,11 @@ html{
   padding: 5px;
 }
 
+.svg{
+  float: right;
+  padding-right: 90px;
+  padding-top: 50px;
+}
 
 /*THIRD SECTION*/
 
