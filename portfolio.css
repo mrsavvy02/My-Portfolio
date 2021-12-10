@@ -190,7 +190,6 @@ html{
 
 .col{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-  padding: 2px;
   border-radius: 4px;
   transition: 0.2s ease;
 }
