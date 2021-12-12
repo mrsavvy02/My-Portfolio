@@ -60,7 +60,7 @@ html{
   display: inline-block;
   min-width: 15em;
   margin: 0 0.5em;
-  
+
 }
 
 .menu-list li a{
@@ -130,6 +130,8 @@ html{
   background-color: #fff;
   color: #293241;
 }
+
+/*FIRST SECTION END */
 
 /*SECOND SECTION */
 
@@ -230,9 +232,7 @@ html{
   float: left;
 }
 
-
-
-
+/*THIRD SECTION END*/
 
 
 /*FOURTH SECTION*/
@@ -241,5 +241,6 @@ html{
   width: 100%;
   height: 100vh;
   padding: 5%;
-
+  background-color: #adb5bd;
 }
+ 
