@@ -170,7 +170,7 @@ html{
 .svg{
   float: right;
   padding-right: 70px;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 /*THIRD SECTION*/
@@ -220,7 +220,15 @@ html{
   opacity: 1;
 }
 
+.svg1{
+  padding-top: 50px;
+  float: right;
+}
 
+.svg2{
+  padding-top: 50px;
+  float: left;
+}
 
 
 
