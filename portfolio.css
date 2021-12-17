@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 
 body{
@@ -83,10 +84,10 @@ html{
 }
 
 .landing-section-heading{
-  font-family: 'Jolly Lodger', cursive;
+  font-family: 'Monoton', cursive;
   font-size: 60px;
   color: #d00000;
-  font-weight: 500;
+  font-weight: 300;
   margin: 0%;
   text-shadow: 3px 3px;
   word-spacing: 0px;
@@ -248,10 +249,10 @@ html{
 
 
 .container2{
-  max-width: 500px;
+  max-width: 550px;
   width: 100%;
   background: #90caf9;
-  padding: 15px 20px;
+  padding: 5px 25px;
   border-radius: 10px 90px 10px 90px;
 }
 
@@ -259,7 +260,7 @@ html{
   font-size: 40px;
   font-weight: 3000;
   position: relative;
-  font-family: 'Jolly Lodger', cursive;
+  font-family: 'Staatliches', cursive;
 }
 
 .container2 .title::before{
@@ -267,13 +268,13 @@ html{
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 3px;
-  width: 330px;
+  height: 2px;
+  width: 400px;
   background: #001233;
 }
 
 .container2 span{
-  font-family: 'Jolly Lodger', cursive;
+  font-family: 'Staatliches', cursive;
   font-weight: 2000;
   font-size: 25px;
 }
@@ -317,7 +318,8 @@ form .button input{
   color: #fff;
   cursor: pointer;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 25px;
   border-radius: 5px;
   background-color: #d00000;
+  font-family: 'Staatliches', cursive;
 }
