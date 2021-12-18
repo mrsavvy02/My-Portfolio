@@ -245,8 +245,8 @@ html{
   background-image: url('assests/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
-
 
 .container2{
   max-width: 550px;
@@ -324,3 +324,18 @@ form .button input{
   font-family: 'Staatliches', cursive;
 }
 
+.btn{
+  size: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+  border-radius: 1px;
+  transition: 0.6s ease;
+}
+
+.btn:hover{
+  background-color: #d00000;
+  border-radius: 60%;
+  transform: scale(1.04);
+  transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}
