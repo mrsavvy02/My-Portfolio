@@ -144,7 +144,7 @@ html{
   color: #293241;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
 
   .main-section{
     display: flex;
