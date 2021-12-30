@@ -26,13 +26,6 @@ html{
   overflow: hidden;
 }
 
-.main-section{
-  display: flex;
-  padding-top: 11%;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .landing-section{
   text-align: right;
   padding-top: 10px;
@@ -50,7 +43,6 @@ html{
 
 .menu-list{
   display: inline-block;
-  justify-content: space-between;
   list-style: none;
   width: 100%;
   color: #fff;
@@ -61,8 +53,8 @@ html{
 
 .menu-list li{
   display: inline-block;
-  min-width: 15em;
-  margin: 0 0.5em;
+ 
+  width: 23%;
 }
 
 .menu-list li a{
@@ -70,7 +62,7 @@ html{
   color: #adb5bd;
   font-family: 'Jolly Lodger', cursive;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
   transition: 0.6s ease;
   text-align: center;
 }
@@ -84,9 +76,27 @@ html{
   text-shadow: 1px 1px;
 }
 
+.main-section{
+  display: block;
+  width: 100%;
+}
+  
+.lottie{
+  margin: auto;
+  width: 70%;
+  display: block;
+  align-items: center;
+}
+
+.landing-section{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
 .landing-section-heading{
   font-family: 'Monoton', cursive;
-  font-size: 60px;
+  font-size: 45px;
   color: #d90429;
   font-weight: 300;
   margin: 0%;
@@ -96,7 +106,7 @@ html{
 
 .landing-section-text{
   font-family: 'Amatic SC', cursive;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 350;
   color: #adb5bd;
   width: 3ch;
@@ -120,17 +130,52 @@ html{
   padding: 8px 14px;
   border-radius: 4px;
   font-family: 'Jolly Lodger', cursive;
+  
 }
 
 .btn-download a{
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #fff;
 }
 .btn-download a:hover,
 .btn-download:hover {
   background-color: #fff;
   color: #293241;
+}
+
+@media screen and (min-width:768px) {
+
+  .main-section{
+    display: flex;
+    padding-top: 11%;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+  .landing-section-heading{
+    font-size: 60px;
+    text-align: right;
+  }
+
+  .landing-section-text{
+    font-size: 35px;
+    text-align: right;
+  }
+
+  .btn-download{
+    font-size: 30px;
+    float: right;
+  }
+
+  .lottie{
+    width: 100%;
+    display: block;
+  }
+
+  .menu-list li a{
+    font-size: 40px;
+  }
 }
 
 /*FIRST SECTION END */
@@ -141,10 +186,7 @@ html{
   width: 100%;
   height: 100vh;
   background-color: #b8c6db;
-background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-
-
-  
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
   padding: 5%;
   box-sizing: border-box;
 }
