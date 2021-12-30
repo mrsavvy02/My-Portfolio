@@ -80,24 +80,18 @@ html{
   display: block;
   width: 100%;
 }
-
+  
 .lottie{
   margin: auto;
-}
-
-.lottie-container{
-  display: flex;
-  margin: auto;
-  width: 100%;
-  height: 200px;
-  align-items:flex-start;
+  width: 70%;
+  display: block;
+  align-items: center;
 }
 
 .landing-section{
   display: block;
   width: 100%;
   text-align: center;
-  align-items: flex-end;
 }
 
 .landing-section-heading{
@@ -175,12 +169,6 @@ html{
 
   .btn-download a{
     font-size: 25px;
-  }
-
-  .btn-download a:hover,
-  .btn-download:hover {
-  background-color: #fff;
-  color: #293241;
   }
 
   .lottie{
